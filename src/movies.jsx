@@ -1,4 +1,5 @@
 import List from "./List";
+import App from "./tmdb";
 const Movie = () => {
   const moviesList = [
     {
@@ -13,6 +14,7 @@ const Movie = () => {
   return (
     <>
       <List moviesList={moviesList} />
+      <App />
     </>
   );
 };

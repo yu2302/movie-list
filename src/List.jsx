@@ -1,6 +1,7 @@
 import { Button, Card, Image, Text } from "@chakra-ui/react";
+import React, { useState, useEffect } from 'react';
 
-const List = ({moviesList}) => {
+const List = ({ moviesList }) => {
   return (
     <>
       {moviesList.map((movie) => {
